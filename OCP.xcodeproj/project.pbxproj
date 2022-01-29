@@ -10,6 +10,7 @@
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
 		04C6B3EA27A58A60005D175F /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3E927A58A60005D175F /* LSP.swift */; };
+		04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3ED27A5A2A0005D175F /* ISP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
 		04C6B3E927A58A60005D175F /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
+		04C6B3ED27A5A2A0005D175F /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,20 @@
 		041422BF27A486720041EFE5 /* OCP */ = {
 			isa = PBXGroup;
 			children = (
+				04C6B3EC27A5A27B005D175F /* Solid */,
 				041422C027A486720041EFE5 /* main.swift */,
-				041422C827A486C70041EFE5 /* OCP.swift */,
-				04C6B3E927A58A60005D175F /* LSP.swift */,
 			);
 			path = OCP;
+			sourceTree = "<group>";
+		};
+		04C6B3EC27A5A27B005D175F /* Solid */ = {
+			isa = PBXGroup;
+			children = (
+				041422C827A486C70041EFE5 /* OCP.swift */,
+				04C6B3E927A58A60005D175F /* LSP.swift */,
+				04C6B3ED27A5A2A0005D175F /* ISP.swift */,
+			);
+			path = Solid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
 				04C6B3EA27A58A60005D175F /* LSP.swift in Sources */,
 				041422C927A486C70041EFE5 /* OCP.swift in Sources */,
 				041422C127A486720041EFE5 /* main.swift in Sources */,
