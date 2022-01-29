@@ -6,7 +6,20 @@
 //
 
 import Foundation
+//Dependency Inversion
 
+func dIP(){
+    let parent = Person("John")
+    let child =  Person("Chris")
+    let child2 = Person("Matt")
+    
+    let relationships = Relationships()
+    relationships.addParentAndChild(parent, child)
+    relationships.addParentAndChild(parent, child2)
+    let _ = Research(relationships)
+}
+dIP()
+//Dependency Inversion Ends
 //Liskov substitution Principle
 func setAndMeasure(_ rc:Rectangle)
 {
@@ -20,7 +33,7 @@ func lsP(){
     let sc = Square()
     setAndMeasure(sc)
 }
-lsP()
+//lsP()
 //Liskov substitution ends here
 
 //Open-Closed Principle;
