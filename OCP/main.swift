@@ -6,11 +6,33 @@
 //
 
 import Foundation
+//Prototype design pattern
+var mdl:Database = Database()
+var db1:Database = mdl.Clone()
+db1.Name = "Stocks"
+db1.AddTable(name: "Inventory")
+print(db1.Name)
+db1.TableList()
+print("---")
+var db2:Database = mdl.Clone()
+db2.Name = "CRM"
+db2.AddTable(name: "Customer")
+print(db2.Name)
+db2.TableList()
+
+//ProtoType Design Pattern ends
+
+
+
+
+
+
+
 
 //Factory Method Pattern;
-var tMint = TMint()
-var tl:TL = tMint.coinMoney(val: 100) as! TL
-print(tl.valueString)
+//var tMint = TMint()
+//var tl:TL = tMint.coinMoney(val: 100) as! TL
+//print(tl.valueString)
 //Factory Method Ğattern Ends.
 
 
