@@ -71,7 +71,8 @@ where SpecA.T == SpecB.T, T == SpecA.T , T == SpecB.T{
 }
 class BetterFilter: Filter {
 typealias T = Product
-    func filter<Spec:Specification>(_ items: [Product], _ spec: Spec) -> [Product] where  T == Spec.T {
+    func filter<Spec:Specification>(_ items: [Product], _ spec: Spec) -> [Product] where  T == Spec.T
+    {
         var result = [Product]()
         for i in items{
             if spec.isSatisfied(i) {

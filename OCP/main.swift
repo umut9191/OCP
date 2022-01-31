@@ -6,19 +6,44 @@
 //
 
 import Foundation
-//Dependency Inversion
+//Singleton pattern
+var obj1 = Sample.CreateObject()
+var obj2 = Sample.CreateObject()
+var obj3 = Sample.CreateObject()
 
-func dIP(){
-    let parent = Person("John")
-    let child =  Person("Chris")
-    let child2 = Person("Matt")
-    
-    let relationships = Relationships()
-    relationships.addParentAndChild(parent, child)
-    relationships.addParentAndChild(parent, child2)
-    let _ = Research(relationships)
-}
-dIP()
+obj1.SetData(val: 1234)
+print("obj1-Data\(obj1.GetData())")
+print("obj2-Data\(obj2.GetData())")
+print("obj3-Data\(obj3.GetData())")
+obj2.SetData(val:2222)
+print("obj1-Data\(obj1.GetData())")
+print("obj2-Data\(obj2.GetData())")
+print("obj3-Data\(obj3.GetData())")
+//SingletonPattern ends
+
+
+
+
+
+
+
+
+
+
+
+//Dependency Inversion
+//
+//func dIP(){
+//    let parent = Person("John")
+//    let child =  Person("Chris")
+//    let child2 = Person("Matt")
+//
+//    let relationships = Relationships()
+//    relationships.addParentAndChild(parent, child)
+//    relationships.addParentAndChild(parent, child2)
+//    let _ = Research(relationships)
+//}
+//dIP()
 //Dependency Inversion Ends
 //Liskov substitution Principle
 func setAndMeasure(_ rc:Rectangle)

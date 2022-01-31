@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
+		0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37527A86CB4009268DC /* SingletonPattern.swift */; };
 		04C6B3EA27A58A60005D175F /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3E927A58A60005D175F /* LSP.swift */; };
 		04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3ED27A5A2A0005D175F /* ISP.swift */; };
 		04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3F027A5B0CC005D175F /* DIP.swift */; };
+		04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B40027A7381F005D175F /* BuilderPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +32,11 @@
 		041422BD27A486720041EFE5 /* OCP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCP; sourceTree = BUILT_PRODUCTS_DIR; };
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
+		0463A37527A86CB4009268DC /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		04C6B3E927A58A60005D175F /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
 		04C6B3ED27A5A2A0005D175F /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 		04C6B3F027A5B0CC005D175F /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
+		04C6B40027A7381F005D175F /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,20 @@
 		041422BF27A486720041EFE5 /* OCP */ = {
 			isa = PBXGroup;
 			children = (
+				04C6B3F327A72FD5005D175F /* Patterns */,
 				04C6B3EC27A5A27B005D175F /* Solid */,
 				041422C027A486720041EFE5 /* main.swift */,
 			);
 			path = OCP;
+			sourceTree = "<group>";
+		};
+		0463A37427A86C76009268DC /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				04C6B40027A7381F005D175F /* BuilderPattern.swift */,
+				0463A37527A86CB4009268DC /* SingletonPattern.swift */,
+			);
+			path = CreationalPatterns;
 			sourceTree = "<group>";
 		};
 		04C6B3EC27A5A27B005D175F /* Solid */ = {
@@ -80,6 +94,14 @@
 				04C6B3F027A5B0CC005D175F /* DIP.swift */,
 			);
 			path = Solid;
+			sourceTree = "<group>";
+		};
+		04C6B3F327A72FD5005D175F /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				0463A37427A86C76009268DC /* CreationalPatterns */,
+			);
+			path = Patterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +165,8 @@
 				04C6B3EA27A58A60005D175F /* LSP.swift in Sources */,
 				041422C927A486C70041EFE5 /* OCP.swift in Sources */,
 				041422C127A486720041EFE5 /* main.swift in Sources */,
+				04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */,
+				0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */,
 				04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
