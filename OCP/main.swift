@@ -6,19 +6,30 @@
 //
 
 import Foundation
+////builder pattern;
+//var list1 = ["ESP","air conditioning","Matte Paint"]
+//Customer.CarDemand(brand: Brands.BMW, model: "1.16", demand_features: list1)
+//var list2 = ["Steel rim","air conditioning","Sunroof"]
+//Customer.CarDemand(brand: Brands.BMW, model: "1.16", demand_features: list2)
+////builder pattern ends
+
+
+
+
+
 //Prototype design pattern
-var mdl:Database = Database()
-var db1:Database = mdl.Clone()
-db1.Name = "Stocks"
-db1.AddTable(name: "Inventory")
-print(db1.Name)
-db1.TableList()
-print("---")
-var db2:Database = mdl.Clone()
-db2.Name = "CRM"
-db2.AddTable(name: "Customer")
-print(db2.Name)
-db2.TableList()
+//var mdl:Database = Database()
+//var db1:Database = mdl.Clone()
+//db1.Name = "Stocks"
+//db1.AddTable(name: "Inventory")
+//print(db1.Name)
+//db1.TableList()
+//print("---")
+//var db2:Database = mdl.Clone()
+//db2.Name = "CRM"
+//db2.AddTable(name: "Customer")
+//print(db2.Name)
+//db2.TableList()
 
 //ProtoType Design Pattern ends
 
