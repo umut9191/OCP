@@ -6,6 +6,22 @@
 //
 
 import Foundation
+//Abstract Factory Pattern;
+var sql = FactoryUtil.GetFactory(db_name: "SQL")
+sql?.createConnection().Connect()
+sql?.createCommand().Execute()
+var oracle =  FactoryUtil.GetFactory(db_name: "Oracle")
+oracle?.createConnection().Connect()
+oracle?.createCommand().Execute()
+
+//Abstract Factory Pattern Ends here.
+
+
+
+
+
+
+
 ////builder pattern;
 //var list1 = ["ESP","air conditioning","Matte Paint"]
 //Customer.CarDemand(brand: Brands.BMW, model: "1.16", demand_features: list1)
