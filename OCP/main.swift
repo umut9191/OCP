@@ -6,13 +6,33 @@
 //
 
 import Foundation
+//Iterator pattern;
+var saleDepartment = SaleDepartment()
+var saleDepartmentIterator = saleDepartment.getIterator()
+while(saleDepartmentIterator.next()){
+    print(saleDepartmentIterator.getItem().String())
+}
+
+var hrDepartment = HRDepartment()
+var hrDepartmentIterator = hrDepartment.getIterator()
+while(hrDepartmentIterator.next()){
+    print(hrDepartmentIterator.getItem().String())
+}
+//Iterator pattern Ends here.
+
+
+
+
+
+
+
 //Abstract Factory Pattern;
-var sql = FactoryUtil.GetFactory(db_name: "SQL")
-sql?.createConnection().Connect()
-sql?.createCommand().Execute()
-var oracle =  FactoryUtil.GetFactory(db_name: "Oracle")
-oracle?.createConnection().Connect()
-oracle?.createCommand().Execute()
+//var sql = FactoryUtil.GetFactory(db_name: "SQL")
+//sql?.createConnection().Connect()
+//sql?.createCommand().Execute()
+//var oracle =  FactoryUtil.GetFactory(db_name: "Oracle")
+//oracle?.createConnection().Connect()
+//oracle?.createCommand().Execute()
 
 //Abstract Factory Pattern Ends here.
 
