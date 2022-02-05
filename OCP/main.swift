@@ -6,18 +6,61 @@
 //
 
 import Foundation
-//Iterator pattern;
-var saleDepartment = SaleDepartment()
-var saleDepartmentIterator = saleDepartment.getIterator()
-while(saleDepartmentIterator.next()){
-    print(saleDepartmentIterator.getItem().String())
-}
+//Observer Pattern
+//displaying controls ;
+//func Display(c:Control){
+//    print(c.Name + " " + c.Text)
+//
+//}
+////Creating Controls
+//var c1:Control = Label()
+//c1.Name = "Test1"
+//var c2:Control = Label()
+//c2.Name = "Test2"
+//
+////creating stock object and registration kontrols
+//var s1 = Stock()
+////s1.Register(k: c1)
+////s1.Register(k: c2)
+//c1.Add(o: s1)
+//c2.Add(o: s1)
+//
+//s1.Notify()
+//Display(c: c1)
+//Display(c: c2)
+//
+//s1.abstractQuantity()
+//s1.Notify()
+//Display(c: c1)
+//Display(c: c2)
+//
+//c2.Remove(o: s1)
+//
+//s1.abstractQuantity()
+//s1.Notify()
+//Display(c: c1)
+//Display(c: c2)
+//
 
-var hrDepartment = HRDepartment()
-var hrDepartmentIterator = hrDepartment.getIterator()
-while(hrDepartmentIterator.next()){
-    print(hrDepartmentIterator.getItem().String())
-}
+
+//Observer Pattern ends here.
+
+
+
+
+
+//Iterator pattern;
+//var saleDepartment = SaleDepartment()
+//var saleDepartmentIterator = saleDepartment.getIterator()
+//while(saleDepartmentIterator.next()){
+//    print(saleDepartmentIterator.getItem().String())
+//}
+//
+//var hrDepartment = HRDepartment()
+//var hrDepartmentIterator = hrDepartment.getIterator()
+//while(hrDepartmentIterator.next()){
+//    print(hrDepartmentIterator.getItem().String())
+//}
 //Iterator pattern Ends here.
 
 

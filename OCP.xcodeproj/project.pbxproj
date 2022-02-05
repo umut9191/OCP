@@ -13,6 +13,7 @@
 		0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37527A86CB4009268DC /* SingletonPattern.swift */; };
 		0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37927A8814F009268DC /* FactoryMethodPattern.swift */; };
 		0463A37D27A891B7009268DC /* PrototypePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37C27A891B7009268DC /* PrototypePattern.swift */; };
+		046E714827ADCCE8003CE34C /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E714727ADCCE8003CE34C /* ObserverPattern.swift */; };
 		04C34F4D27AC5D3E002E097D /* IteratorCursorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C34F4C27AC5D3E002E097D /* IteratorCursorPattern.swift */; };
 		04C6B3EA27A58A60005D175F /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3E927A58A60005D175F /* LSP.swift */; };
 		04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3ED27A5A2A0005D175F /* ISP.swift */; };
@@ -40,6 +41,7 @@
 		0463A37527A86CB4009268DC /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		0463A37927A8814F009268DC /* FactoryMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPattern.swift; sourceTree = "<group>"; };
 		0463A37C27A891B7009268DC /* PrototypePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePattern.swift; sourceTree = "<group>"; };
+		046E714727ADCCE8003CE34C /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 		04C34F4C27AC5D3E002E097D /* IteratorCursorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorCursorPattern.swift; sourceTree = "<group>"; };
 		04C6B3E927A58A60005D175F /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
 		04C6B3ED27A5A2A0005D175F /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				04C34F4C27AC5D3E002E097D /* IteratorCursorPattern.swift */,
+				046E714727ADCCE8003CE34C /* ObserverPattern.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				04C34F4D27AC5D3E002E097D /* IteratorCursorPattern.swift in Sources */,
 				041422C127A486720041EFE5 /* main.swift in Sources */,
 				0463A37D27A891B7009268DC /* PrototypePattern.swift in Sources */,
+				046E714827ADCCE8003CE34C /* ObserverPattern.swift in Sources */,
 				044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */,
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,
 				04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */,
