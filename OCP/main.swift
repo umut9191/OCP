@@ -6,6 +6,24 @@
 //
 
 import Foundation
+//Visitor Pattern
+
+//var iC = IndividualCustomer(name: "Umut", surname: "Sürmeli")
+//var cC = CorporateCustomer(name: "Aykut", surname: "Ağaoğlu", company: "Siberty")
+//
+//CreditUsing.Leasing(m: iC)
+//CreditUsing.Leasing(m: cC)
+//CreditUsing.Mortgage(m: iC)
+//CreditUsing.Mortgage(m: cC)
+
+//Visitor Pattern ends here.
+
+
+
+
+
+
+
 //Command Pattern Starts;
 //var kp = KeyPad()
 //
