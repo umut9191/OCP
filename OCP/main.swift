@@ -6,8 +6,22 @@
 //
 
 import Foundation
+//Command Pattern Starts;
+//var kp = KeyPad()
+//
+//kp.RunCommand(commandName: "ENTER")
+//kp.RunCommand(commandName: "DEL")
+//kp.RunCommand(commandName: "CLR")
+
+//CommandPattern ends here.
+
+
+
+
+
+
 //chain of responsibiliy pattern;
-Client.OpenCall(cc: CallCenter())
+//Client.OpenCall(cc: CallCenter())
 //chain of responsibility ends here.
 
 
