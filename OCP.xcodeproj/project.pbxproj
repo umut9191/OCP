@@ -10,6 +10,7 @@
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
 		044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22F427AB0FFC002038FA /* AbstractFactoryPattern.swift */; };
+		045EC8EF27AF25E0001B8A67 /* MediatorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EC8EE27AF25E0001B8A67 /* MediatorPattern.swift */; };
 		0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37527A86CB4009268DC /* SingletonPattern.swift */; };
 		0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37927A8814F009268DC /* FactoryMethodPattern.swift */; };
 		0463A37D27A891B7009268DC /* PrototypePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A37C27A891B7009268DC /* PrototypePattern.swift */; };
@@ -38,6 +39,7 @@
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
 		044B22F427AB0FFC002038FA /* AbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPattern.swift; sourceTree = "<group>"; };
+		045EC8EE27AF25E0001B8A67 /* MediatorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPattern.swift; sourceTree = "<group>"; };
 		0463A37527A86CB4009268DC /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		0463A37927A8814F009268DC /* FactoryMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPattern.swift; sourceTree = "<group>"; };
 		0463A37C27A891B7009268DC /* PrototypePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePattern.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				04C34F4C27AC5D3E002E097D /* IteratorCursorPattern.swift */,
 				046E714727ADCCE8003CE34C /* ObserverPattern.swift */,
+				045EC8EE27AF25E0001B8A67 /* MediatorPattern.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				04C34F4D27AC5D3E002E097D /* IteratorCursorPattern.swift in Sources */,
 				041422C127A486720041EFE5 /* main.swift in Sources */,
 				0463A37D27A891B7009268DC /* PrototypePattern.swift in Sources */,
+				045EC8EF27AF25E0001B8A67 /* MediatorPattern.swift in Sources */,
 				046E714827ADCCE8003CE34C /* ObserverPattern.swift in Sources */,
 				044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */,
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,

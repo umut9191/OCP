@@ -6,6 +6,21 @@
 //
 
 import Foundation
+//Mediator pattern;
+
+//mediator pattern ends here.
+var normalPersonMember = NormalPersonMember(nickName: "excalibur")
+var vipPersonMember = VIPMember(nickName: "vipExcalibur")
+var softwareRoom = SoftwareRoom()
+
+softwareRoom.addPerson(p: normalPersonMember)
+softwareRoom.addPerson(p: vipPersonMember)
+
+softwareRoom.sendMessageBroadcast(sender: vipPersonMember, message: "hi everybody")
+softwareRoom.sendMessage(sender: vipPersonMember, receiver: normalPersonMember, message: "hi normal person")
+softwareRoom.sendMessage(sender: normalPersonMember, receiver: vipPersonMember, message: "hi vip")
+
+
 //Observer Pattern
 //displaying controls ;
 //func Display(c:Control){
