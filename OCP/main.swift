@@ -6,19 +6,25 @@
 //
 
 import Foundation
+//chain of responsibiliy pattern;
+Client.OpenCall(cc: CallCenter())
+//chain of responsibility ends here.
+
+
+
 //Mediator pattern;
-
+//var normalPersonMember = NormalPersonMember(nickName: "excalibur")
+//var vipPersonMember = VIPMember(nickName: "vipExcalibur")
+//var softwareRoom = SoftwareRoom()
+//
+//softwareRoom.addPerson(p: normalPersonMember)
+//softwareRoom.addPerson(p: vipPersonMember)
+//
+//softwareRoom.sendMessageBroadcast(sender: vipPersonMember, message: "hi everybody")
+//softwareRoom.sendMessage(sender: vipPersonMember, receiver: normalPersonMember, message: "hi normal person")
+//softwareRoom.sendMessage(sender: normalPersonMember, receiver: vipPersonMember, message: "hi vip")
 //mediator pattern ends here.
-var normalPersonMember = NormalPersonMember(nickName: "excalibur")
-var vipPersonMember = VIPMember(nickName: "vipExcalibur")
-var softwareRoom = SoftwareRoom()
 
-softwareRoom.addPerson(p: normalPersonMember)
-softwareRoom.addPerson(p: vipPersonMember)
-
-softwareRoom.sendMessageBroadcast(sender: vipPersonMember, message: "hi everybody")
-softwareRoom.sendMessage(sender: vipPersonMember, receiver: normalPersonMember, message: "hi normal person")
-softwareRoom.sendMessage(sender: normalPersonMember, receiver: vipPersonMember, message: "hi vip")
 
 
 //Observer Pattern

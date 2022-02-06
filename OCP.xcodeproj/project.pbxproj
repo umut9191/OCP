@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04002A2D27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */; };
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
 		044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22F427AB0FFC002038FA /* AbstractFactoryPattern.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 		041422BD27A486720041EFE5 /* OCP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCP; sourceTree = BUILT_PRODUCTS_DIR; };
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				04C34F4C27AC5D3E002E097D /* IteratorCursorPattern.swift */,
 				046E714727ADCCE8003CE34C /* ObserverPattern.swift */,
 				045EC8EE27AF25E0001B8A67 /* MediatorPattern.swift */,
+				04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				041422C127A486720041EFE5 /* main.swift in Sources */,
 				0463A37D27A891B7009268DC /* PrototypePattern.swift in Sources */,
 				045EC8EF27AF25E0001B8A67 /* MediatorPattern.swift in Sources */,
+				04002A2D27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift in Sources */,
 				046E714827ADCCE8003CE34C /* ObserverPattern.swift in Sources */,
 				044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */,
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,
