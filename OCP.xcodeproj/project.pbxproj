@@ -10,6 +10,8 @@
 		04002A2D27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */; };
 		04002A3027B00ED700FACB9A /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A2F27B00ED700FACB9A /* CommandPattern.swift */; };
 		04002A3327B0583600FACB9A /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A3227B0583600FACB9A /* VisitorPattern.swift */; };
+		04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04027D5A27B1A6360034A167 /* StrategyPattern.swift */; };
+		04027D5E27B1B3390034A167 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04027D5D27B1B3390034A167 /* StatePattern.swift */; };
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
 		044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22F427AB0FFC002038FA /* AbstractFactoryPattern.swift */; };
@@ -41,6 +43,8 @@
 		04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattern.swift; sourceTree = "<group>"; };
 		04002A2F27B00ED700FACB9A /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		04002A3227B0583600FACB9A /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
+		04027D5A27B1A6360034A167 /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
+		04027D5D27B1B3390034A167 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		041422BD27A486720041EFE5 /* OCP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCP; sourceTree = BUILT_PRODUCTS_DIR; };
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				04002A2C27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift */,
 				04002A2F27B00ED700FACB9A /* CommandPattern.swift */,
 				04002A3227B0583600FACB9A /* VisitorPattern.swift */,
+				04027D5A27B1A6360034A167 /* StrategyPattern.swift */,
+				04027D5D27B1B3390034A167 /* StatePattern.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
+				04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */,
 				04C6B3EA27A58A60005D175F /* LSP.swift in Sources */,
 				041422C927A486C70041EFE5 /* OCP.swift in Sources */,
 				04C34F4D27AC5D3E002E097D /* IteratorCursorPattern.swift in Sources */,
@@ -209,6 +216,7 @@
 				044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */,
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,
 				04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */,
+				04027D5E27B1B3390034A167 /* StatePattern.swift in Sources */,
 				04002A3327B0583600FACB9A /* VisitorPattern.swift in Sources */,
 				0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */,
 				04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */,

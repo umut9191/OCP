@@ -6,6 +6,36 @@
 //
 
 import Foundation
+
+
+
+
+
+//State Pattern
+//var thread = ThreadContext()
+//thread.Start()
+//thread.Sleep()
+//thread.Abord()
+//thread.Start()
+//State Pattern is ends here.
+
+
+
+
+
+
+//Strategy Pattern;
+//var rectangle = Rectanglex(brush:SolidBrush())
+//rectangle.Draw()
+//var rectangle2 = Rectanglex(brush:LinearGradientBrush())
+//rectangle2.Draw()
+//Strategy Pattern ends here.
+
+
+
+
+
+
 //Visitor Pattern
 
 //var iC = IndividualCustomer(name: "Umut", surname: "Sürmeli")
