@@ -7,6 +7,34 @@
 
 import Foundation
 
+//Memento Design Pattern starts here;
+
+//var ti = ToolInfos()
+//ti.type = ToolsTypes.Transistor
+//ti.detail = "BC-237"
+//ti.location = Location(x:12,y:35)
+//
+//var originator = Tool(toolInfo: ti)
+//print(originator.String())
+//
+//var memento:Memento = originator.CreateMemento()
+//
+//var ti2 = ToolInfos()
+//ti2.type = ToolsTypes.Transistor
+//ti2.detail = "BC-547"
+//ti2.location = Location(x:12,y:37)
+//
+//originator.ToolInfo = ti2
+//print(originator.String())
+//
+//originator.setMemento(memento: memento)
+//print(originator.String())
+
+//Memento Desigin Pattern ends here.
+
+
+
+
 ////Template Report Pattern starts here;
 //func Reporting(rpt:ReportHelper){
 //    rpt.CreateReport()
