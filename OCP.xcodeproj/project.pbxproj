@@ -26,6 +26,7 @@
 		04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3ED27A5A2A0005D175F /* ISP.swift */; };
 		04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3F027A5B0CC005D175F /* DIP.swift */; };
 		04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B40027A7381F005D175F /* BuilderPattern.swift */; };
+		04F0B53E27B30E25002B8AA0 /* StaticAndClassKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		04C6B3ED27A5A2A0005D175F /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 		04C6B3F027A5B0CC005D175F /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
 		04C6B40027A7381F005D175F /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticAndClassKeywords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				04C6B3F327A72FD5005D175F /* Patterns */,
 				04C6B3EC27A5A27B005D175F /* Solid */,
 				041422C027A486720041EFE5 /* main.swift */,
+				04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */,
 			);
 			path = OCP;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,
 				04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */,
 				04027D5E27B1B3390034A167 /* StatePattern.swift in Sources */,
+				04F0B53E27B30E25002B8AA0 /* StaticAndClassKeywords.swift in Sources */,
 				04002A3327B0583600FACB9A /* VisitorPattern.swift in Sources */,
 				0463A37627A86CB4009268DC /* SingletonPattern.swift in Sources */,
 				04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */,
