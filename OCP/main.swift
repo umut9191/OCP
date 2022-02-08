@@ -7,7 +7,19 @@
 
 import Foundation
 
+////Template Report Pattern starts here;
+//func Reporting(rpt:ReportHelper){
+//    rpt.CreateReport()
+//
+//}
+//Reporting(rpt: Chart())
+//Reporting(rpt: Pivot())
+//
+////
+////example 2.
+//TemplateMethodConceptual.test()
 
+//Template Report Pattern ends here.
 
 
 

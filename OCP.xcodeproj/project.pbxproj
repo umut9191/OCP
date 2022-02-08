@@ -12,6 +12,7 @@
 		04002A3327B0583600FACB9A /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A3227B0583600FACB9A /* VisitorPattern.swift */; };
 		04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04027D5A27B1A6360034A167 /* StrategyPattern.swift */; };
 		04027D5E27B1B3390034A167 /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04027D5D27B1B3390034A167 /* StatePattern.swift */; };
+		04027D6127B1C0A80034A167 /* TemplateMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04027D6027B1C0A80034A167 /* TemplateMethodPattern.swift */; };
 		041422C127A486720041EFE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C027A486720041EFE5 /* main.swift */; };
 		041422C927A486C70041EFE5 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041422C827A486C70041EFE5 /* OCP.swift */; };
 		044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22F427AB0FFC002038FA /* AbstractFactoryPattern.swift */; };
@@ -45,6 +46,7 @@
 		04002A3227B0583600FACB9A /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
 		04027D5A27B1A6360034A167 /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
 		04027D5D27B1B3390034A167 /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		04027D6027B1C0A80034A167 /* TemplateMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodPattern.swift; sourceTree = "<group>"; };
 		041422BD27A486720041EFE5 /* OCP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCP; sourceTree = BUILT_PRODUCTS_DIR; };
 		041422C027A486720041EFE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		041422C827A486C70041EFE5 /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				04002A3227B0583600FACB9A /* VisitorPattern.swift */,
 				04027D5A27B1A6360034A167 /* StrategyPattern.swift */,
 				04027D5D27B1B3390034A167 /* StatePattern.swift */,
+				04027D6027B1C0A80034A167 /* TemplateMethodPattern.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
 				04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */,
+				04027D6127B1C0A80034A167 /* TemplateMethodPattern.swift in Sources */,
 				04C6B3EA27A58A60005D175F /* LSP.swift in Sources */,
 				041422C927A486C70041EFE5 /* OCP.swift in Sources */,
 				04C34F4D27AC5D3E002E097D /* IteratorCursorPattern.swift in Sources */,
