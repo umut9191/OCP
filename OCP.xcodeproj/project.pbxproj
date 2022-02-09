@@ -29,6 +29,7 @@
 		04F0B53E27B30E25002B8AA0 /* StaticAndClassKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */; };
 		04F0B54127B3144D002B8AA0 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B54027B3144D002B8AA0 /* MementoPattern.swift */; };
 		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
+		04F0D46F27B45B2E00B4BCCB /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticAndClassKeywords.swift; sourceTree = "<group>"; };
 		04F0B54027B3144D002B8AA0 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
+		04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */,
+				04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */,
 			);
 			path = StructuredPatterns;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				04002A2D27AFF56200FACB9A /* ChainOfResponsibilityPattern.swift in Sources */,
 				04002A3027B00ED700FACB9A /* CommandPattern.swift in Sources */,
 				046E714827ADCCE8003CE34C /* ObserverPattern.swift in Sources */,
+				04F0D46F27B45B2E00B4BCCB /* AdapterPattern.swift in Sources */,
 				044B22F527AB0FFC002038FA /* AbstractFactoryPattern.swift in Sources */,
 				0463A37A27A8814F009268DC /* FactoryMethodPattern.swift in Sources */,
 				04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */,
