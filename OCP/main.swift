@@ -7,6 +7,27 @@
 
 import Foundation
 
+//Decorator Pattern Starts from here;
+
+var wnd1:IWindow = LoginWindow(title: "Entering to the System")
+var wnd2:IWindow = ReportWindow(title: "Stock Report Screen")
+var wnd3:IWindow = ReportWindow(title: "Sale Report Screen")
+
+var decorator1:ScrollDecorator = ScrollDecorator(targetWindow: wnd2, title: "Stock Report Screen")
+var decorator2:ThemeDecorator = ThemeDecorator(targetWindow: wnd1, title: "Entering to the System")
+var decorator3:ThemeDecorator = ThemeDecorator(targetWindow: wnd3, title: "Sale Report Screen")
+var decorator4:ThemeDecorator = ThemeDecorator(targetWindow: wnd2, title: "Stock Report Screen")
+
+decorator1.ScrollBy(amount: 5)
+decorator2.SetTheme(name: "Horizon")
+decorator3.SetTheme(name: "Spring")
+decorator4.SetTheme(name: "Sea")
+
+//Decorator pattern ends here.
+
+
+
+
 //Memento Design Pattern starts here;
 
 //var ti = ToolInfos()

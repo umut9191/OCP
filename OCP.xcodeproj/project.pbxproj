@@ -28,6 +28,7 @@
 		04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B40027A7381F005D175F /* BuilderPattern.swift */; };
 		04F0B53E27B30E25002B8AA0 /* StaticAndClassKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */; };
 		04F0B54127B3144D002B8AA0 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B54027B3144D002B8AA0 /* MementoPattern.swift */; };
+		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		04C6B40027A7381F005D175F /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 		04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticAndClassKeywords.swift; sourceTree = "<group>"; };
 		04F0B54027B3144D002B8AA0 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
+		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +150,19 @@
 		04C6B3F327A72FD5005D175F /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				04F0D46A27B44CFB00B4BCCB /* StructuredPatterns */,
 				044B22F727AB2324002038FA /* BehavioralPatterns */,
 				0463A37427A86C76009268DC /* CreationalPatterns */,
 			);
 			path = Patterns;
+			sourceTree = "<group>";
+		};
+		04F0D46A27B44CFB00B4BCCB /* StructuredPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */,
+			);
+			path = StructuredPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */,
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
 				04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */,
 				04027D6127B1C0A80034A167 /* TemplateMethodPattern.swift in Sources */,
