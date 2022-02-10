@@ -6,6 +6,17 @@
 //
 
 import Foundation
+//Bridge Pattern starts here;
+var obj:Abstraction = RefinedAbstraction(implementor: ConcreteImplementor1())
+obj.Operation()
+obj.implementor = ConcreteImplementor2()
+obj.Operation()
+//Bridge Pattern ends here.
+
+
+
+
+
 
 //Facade Pattern stars here;
 //var f:Facade =  Facade.Current
@@ -14,12 +25,7 @@ import Foundation
 //Facade.Current.Sample()
 //Facade.Current.SubSystem1x.Foo()
 //Facade.Current.SubSystem3x.Tar()
-
-//Facade Oattern Ends here.
-
-
-
-
+//Facade Pattern Ends here.
 
 
 
