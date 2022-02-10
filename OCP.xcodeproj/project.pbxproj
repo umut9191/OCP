@@ -30,6 +30,7 @@
 		04F0B54127B3144D002B8AA0 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B54027B3144D002B8AA0 /* MementoPattern.swift */; };
 		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
 		04F0D46F27B45B2E00B4BCCB /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */; };
+		04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D47127B4618200B4BCCB /* FacadePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		04F0B54027B3144D002B8AA0 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
+		04F0D47127B4618200B4BCCB /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */,
 				04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */,
+				04F0D47127B4618200B4BCCB /* FacadePattern.swift */,
 			);
 			path = StructuredPatterns;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */,
 				04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */,
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
 				04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */,

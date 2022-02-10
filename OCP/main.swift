@@ -6,6 +6,23 @@
 //
 
 import Foundation
+
+//Facade Pattern stars here;
+//var f:Facade =  Facade.Current
+//Facade.Current.Func()
+//Facade.Current.DoWork()
+//Facade.Current.Sample()
+//Facade.Current.SubSystem1x.Foo()
+//Facade.Current.SubSystem3x.Tar()
+
+//Facade Oattern Ends here.
+
+
+
+
+
+
+
 //Adapter Pattern starts here;
 
 //var target:Target = Adapter()
