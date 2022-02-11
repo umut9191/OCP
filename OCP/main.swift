@@ -7,10 +7,27 @@
 
 import Foundation
 //Bridge Pattern starts here;
-var obj:Abstraction = RefinedAbstraction(implementor: ConcreteImplementor1())
-obj.Operation()
-obj.implementor = ConcreteImplementor2()
-obj.Operation()
+//var obj:Abstraction = RefinedAbstraction(implementor: ConcreteImplementor1())
+//obj.Operation()
+//obj.implementor = ConcreteImplementor2()
+//obj.Operation()
+
+//2. example;
+var btn:IControl = Button(name: "Buttons")
+btn.ControlImplementor = AndroidButton()
+btn.Render()
+
+btn.ControlImplementor = IOSButton()
+btn.Render()
+
+var txt:IControl = TextBox(name: "TextBoxes")
+txt.ControlImplementor = IOSTextBox()
+txt.Render()
+
+txt.ControlImplementor = AndroidTextBox()
+txt.Render()
+
+
 //Bridge Pattern ends here.
 
 
