@@ -27,6 +27,7 @@
 		04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3ED27A5A2A0005D175F /* ISP.swift */; };
 		04C6B3F127A5B0CC005D175F /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B3F027A5B0CC005D175F /* DIP.swift */; };
 		04C6B40127A7381F005D175F /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6B40027A7381F005D175F /* BuilderPattern.swift */; };
+		04D65AC827B707FE00813C5B /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D65AC727B707FE00813C5B /* CompositePattern.swift */; };
 		04F0B53E27B30E25002B8AA0 /* StaticAndClassKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */; };
 		04F0B54127B3144D002B8AA0 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B54027B3144D002B8AA0 /* MementoPattern.swift */; };
 		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
@@ -68,6 +69,7 @@
 		04C6B3ED27A5A2A0005D175F /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 		04C6B3F027A5B0CC005D175F /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
 		04C6B40027A7381F005D175F /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		04D65AC727B707FE00813C5B /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		04F0B53D27B30E25002B8AA0 /* StaticAndClassKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticAndClassKeywords.swift; sourceTree = "<group>"; };
 		04F0B54027B3144D002B8AA0 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */,
 				04F0D47127B4618200B4BCCB /* FacadePattern.swift */,
 				0467CD3627B5C37500961EFB /* BridgePattern.swift */,
+				04D65AC727B707FE00813C5B /* CompositePattern.swift */,
 			);
 			path = StructuredPatterns;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D65AC827B707FE00813C5B /* CompositePattern.swift in Sources */,
 				04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */,
 				04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */,
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,

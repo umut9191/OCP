@@ -6,6 +6,22 @@
 //
 
 import Foundation
+//Composite Pattern starts from here;
+var root:Panel=Panel(name: "root")
+var leaf1:UIComponent=UIComponent(name: "Leaf 1.1")
+//This work will be reason for throwing exeption
+//leaf1.Add(component: UIComponent(name: "trying"))
+root.Add(component: leaf1)
+var pnl2:Panel=Panel(name: "Panel 1.2")
+
+
+//Compozite Pattern ends here.
+
+
+
+
+
+
 //Bridge Pattern starts here;
 //var obj:Abstraction = RefinedAbstraction(implementor: ConcreteImplementor1())
 //obj.Operation()
@@ -13,19 +29,19 @@ import Foundation
 //obj.Operation()
 
 //2. example;
-var btn:IControl = Button(name: "Buttons")
-btn.ControlImplementor = AndroidButton()
-btn.Render()
-
-btn.ControlImplementor = IOSButton()
-btn.Render()
-
-var txt:IControl = TextBox(name: "TextBoxes")
-txt.ControlImplementor = IOSTextBox()
-txt.Render()
-
-txt.ControlImplementor = AndroidTextBox()
-txt.Render()
+//var btn:IControl = Button(name: "Buttons")
+//btn.ControlImplementor = AndroidButton()
+//btn.Render()
+//
+//btn.ControlImplementor = IOSButton()
+//btn.Render()
+//
+//var txt:IControl = TextBox(name: "TextBoxes")
+//txt.ControlImplementor = IOSTextBox()
+//txt.Render()
+//
+//txt.ControlImplementor = AndroidTextBox()
+//txt.Render()
 
 
 //Bridge Pattern ends here.
