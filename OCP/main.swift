@@ -12,7 +12,17 @@ var leaf1:UIComponent=UIComponent(name: "Leaf 1.1")
 //This work will be reason for throwing exeption
 //leaf1.Add(component: UIComponent(name: "trying"))
 root.Add(component: leaf1)
-var pnl2:Panel=Panel(name: "Panel 1.2")
+var pnl2:Panel=Panel(name: "pnl 1.2")
+root.Add(component: pnl2)
+pnl2.Add(component: UIComponent(name: "Leaf 2.1"))
+
+pnl2.Add(component: Panel(name: "pnl 2.2"))
+
+pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.1"))
+pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.2"))
+//all Objects will be rendered;
+root.Render()
+
 
 
 //Compozite Pattern ends here.
