@@ -6,6 +6,53 @@
 //
 
 import Foundation
+//Delegation Pattern Starts here;
+
+//var c = C()
+//c.ToDelegation(delegate: A())
+//c.Task()
+//
+//c.ToDelegation(delegate: B())
+//c.Task()
+//2.example;
+//var project = Project()
+//project.name = "Orpheus"
+//
+//var task1 = Taskx()
+//task1.Description = "Analysis"
+//task1.Delegate = project
+//task1.Status = false
+//
+//project.Tasks.append(task1)
+//
+//var task2 = Taskx()
+//task2.Description = "Designing"
+//task2.Delegate = project
+//task2.Status = false
+//
+//project.Tasks.append(task2)
+//
+//
+//var task3 = Taskx()
+//task3.Description = "Coding"
+//task3.Delegate = project
+//task3.Status = false
+//
+//project.Tasks.append(task3)
+//
+//print("--------*----------")
+//project.Tasks[0].Status = true
+//project.Tasks[1].Status = true
+
+//Delegation Pattern Ends here.
+
+
+
+
+
+
+
+
 //FlyWeight pattern codes Starts from here;
 
 //var multivibrator = Circuit.Create()

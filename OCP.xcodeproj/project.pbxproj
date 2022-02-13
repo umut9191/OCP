@@ -33,6 +33,7 @@
 		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
 		04F0D46F27B45B2E00B4BCCB /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */; };
 		04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D47127B4618200B4BCCB /* FacadePattern.swift */; };
+		E258BB5527B9342B0095EA00 /* DelegationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258BB5427B9342B0095EA00 /* DelegationPattern.swift */; };
 		E2CFAFEC27B85E40006C3411 /* FlyWeightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		04F0D47127B4618200B4BCCB /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
+		E258BB5427B9342B0095EA00 /* DelegationPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationPattern.swift; sourceTree = "<group>"; };
 		E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 		04C6B3F327A72FD5005D175F /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E258BB5327B934040095EA00 /* OtherPatterns */,
 				04F0D46A27B44CFB00B4BCCB /* StructuredPatterns */,
 				044B22F727AB2324002038FA /* BehavioralPatterns */,
 				0463A37427A86C76009268DC /* CreationalPatterns */,
@@ -178,6 +181,14 @@
 				E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */,
 			);
 			path = StructuredPatterns;
+			sourceTree = "<group>";
+		};
+		E258BB5327B934040095EA00 /* OtherPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				E258BB5427B9342B0095EA00 /* DelegationPattern.swift */,
+			);
+			path = OtherPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E258BB5527B9342B0095EA00 /* DelegationPattern.swift in Sources */,
 				04D65AC827B707FE00813C5B /* CompositePattern.swift in Sources */,
 				04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */,
 				04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */,
