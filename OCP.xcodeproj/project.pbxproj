@@ -33,6 +33,7 @@
 		04F0D46C27B44D3D00B4BCCB /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */; };
 		04F0D46F27B45B2E00B4BCCB /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */; };
 		04F0D47227B4618200B4BCCB /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0D47127B4618200B4BCCB /* FacadePattern.swift */; };
+		E2CFAFEC27B85E40006C3411 /* FlyWeightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +76,7 @@
 		04F0D46B27B44D3D00B4BCCB /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		04F0D46E27B45B2E00B4BCCB /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		04F0D47127B4618200B4BCCB /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
+		E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				04F0D47127B4618200B4BCCB /* FacadePattern.swift */,
 				0467CD3627B5C37500961EFB /* BridgePattern.swift */,
 				04D65AC727B707FE00813C5B /* CompositePattern.swift */,
+				E2CFAFEB27B85E40006C3411 /* FlyWeightPattern.swift */,
 			);
 			path = StructuredPatterns;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				04C6B3EE27A5A2A0005D175F /* ISP.swift in Sources */,
 				04027D5B27B1A6360034A167 /* StrategyPattern.swift in Sources */,
 				04027D6127B1C0A80034A167 /* TemplateMethodPattern.swift in Sources */,
+				E2CFAFEC27B85E40006C3411 /* FlyWeightPattern.swift in Sources */,
 				04C6B3EA27A58A60005D175F /* LSP.swift in Sources */,
 				0467CD3727B5C37500961EFB /* BridgePattern.swift in Sources */,
 				041422C927A486C70041EFE5 /* OCP.swift in Sources */,

@@ -6,22 +6,77 @@
 //
 
 import Foundation
-//Composite Pattern starts from here;
-var root:Panel=Panel(name: "root")
-var leaf1:UIComponent=UIComponent(name: "Leaf 1.1")
-//This work will be reason for throwing exeption
-//leaf1.Add(component: UIComponent(name: "trying"))
-root.Add(component: leaf1)
-var pnl2:Panel=Panel(name: "pnl 1.2")
-root.Add(component: pnl2)
-pnl2.Add(component: UIComponent(name: "Leaf 2.1"))
+//FlyWeight pattern codes Starts from here;
 
-pnl2.Add(component: Panel(name: "pnl 2.2"))
+//var multivibrator = Circuit.Create()
+//
+//var e1 = Element(detail: "R1 100", location: Locationxy(x:1,y:1), type: ElementTypes.Resistance)
+//e1.Render()
+//Circuit.AddElement(element: e1)
+//
+//var e2 = Element(detail: "R2 22K", location: Locationxy(x:1,y:2), type: ElementTypes.Resistance)
+//e2.Render()
+//Circuit.AddElement(element: e2)
+//
+//var e3 = Element(detail: "R3 100", location: Locationxy(x:1,y:3), type: ElementTypes.Resistance)
+//e3.Render()
+//Circuit.AddElement(element: e3)
+//
+//var e4 = Element(detail: "R4 470", location: Locationxy(x:1,y:4), type: ElementTypes.Resistance)
+//e4.Render()
+//Circuit.AddElement(element: e4)
+//
+//var e5 = Element(detail: "LED1", location: Locationxy(x:2,y:1), type: ElementTypes.Led)
+//e5.Render()
+//Circuit.AddElement(element: e5)
+//
+//var e6 = Element(detail: "LED2", location: Locationxy(x:2,y:4), type: ElementTypes.Led)
+//e6.Render()
+//Circuit.AddElement(element: e6)
+//
+//var e7 = Element(detail: "C1 100", location: Locationxy(x:3,y:1), type: ElementTypes.capacitor)
+//e7.Render()
+//Circuit.AddElement(element: e7)
+//
+//var e8 = Element(detail: "R5 47K", location: Locationxy(x:3,y:3), type: ElementTypes.Resistance)
+//e8.Render()
+//Circuit.AddElement(element: e8)
+//
+//var e9 = Element(detail: "T1 BC 547", location: Locationxy(x:4,y:1), type: ElementTypes.Transistor)
+//e9.Render()
+//Circuit.AddElement(element: e9)
+//
+//var e10 = Element(detail: "T1 BC 547", location: Locationxy(x:4,y:4), type: ElementTypes.Transistor)
+//e10.Render()
+//Circuit.AddElement(element: e10)
+//
+//print("Different Element number: \(multivibrator.ElementCount)")
 
-pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.1"))
-pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.2"))
-//all Objects will be rendered;
-root.Render()
+//FlyWeight pattern codes ends here.
+
+
+
+
+
+
+
+
+////Composite Pattern starts from here;
+//var root:Panel=Panel(name: "root")
+//var leaf1:UIComponent=UIComponent(name: "Leaf 1.1")
+////This work will be reason for throwing exeption
+////leaf1.Add(component: UIComponent(name: "trying"))
+//root.Add(component: leaf1)
+//var pnl2:Panel=Panel(name: "pnl 1.2")
+//root.Add(component: pnl2)
+//pnl2.Add(component: UIComponent(name: "Leaf 2.1"))
+//
+//pnl2.Add(component: Panel(name: "pnl 2.2"))
+//
+//pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.1"))
+//pnl2.GetChild(index: 1)?.Add(component: UIComponent(name: "Leaf 2.2.2"))
+////all Objects will be rendered;
+//root.Render()
 
 
 
