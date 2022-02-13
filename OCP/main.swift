@@ -6,6 +6,33 @@
 //
 
 import Foundation
+//Objects Pool Pattern Codes Starts from here;
+
+var cnn = Connectionx(connectionString: "k1")
+cnn.Open()
+cnn.Execute(query: "Select1")
+cnn.Close()
+
+var cnn2 = Connectionx(connectionString: "k1")
+cnn2.Open()
+cnn2.Execute(query: "Select2")
+cnn2.Close()
+
+var cnn3 = Connectionx(connectionString: "k2")
+cnn3.Open()
+cnn3.Execute(query: "select3")
+cnn3.Close()
+
+
+
+//Objects Pool Pattern Codes Ends here.
+
+
+
+
+
+
+
 //Delegation Pattern Starts here;
 
 //var c = C()
